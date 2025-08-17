@@ -1,4 +1,4 @@
-CREATE DATABASE alx_book_store;
+CREATE DATABASE IF NOT EXISTS alx_book_store;
 
 CREATE TABLE Books (
     book_id INT PRIMARY KEY,
