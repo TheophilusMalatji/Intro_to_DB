@@ -6,7 +6,7 @@ DB_HOST = os.getenv('DB_HOST', 'localhost')
 DB_USER = os.getenv('DB_USER', 'your_username')
 DB_PASSWORD = os.getenv('DB_PASSWORD', 'your_password')
 DATABASE_NAME = "alx_book_store"
-
+CREATE DATABASE IF NOT EXISTS alx_book_store
 
 def create_database(cursor):
     try:
